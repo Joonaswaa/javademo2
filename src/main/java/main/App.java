@@ -43,9 +43,9 @@ public class App
                     break;
                 case 2:
                                         
-                    System.out.println("Anna uusi auton merkki: ");
+                    System.out.print("Anna uusi auton merkki: ");
                     String newBrand = sc.nextLine();
-                    System.out.println("Anna uusi auton malli: ");
+                    System.out.print("Anna uusi auton malli: ");
                     String newModel = sc.nextLine();
                     newCar.updateCar(newBrand, newModel);
 
